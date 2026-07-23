@@ -82,6 +82,7 @@ const handleLogout = () => {
     useEffect(() => {
         fetchModules();
         fetchPreviewIds();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const handleSelectModule = async (module) => {

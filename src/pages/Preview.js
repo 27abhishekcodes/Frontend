@@ -50,6 +50,7 @@ function Preview() {
 
     useEffect(() => {
         fetchPreview();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const removeQuestion = async (id) => {
