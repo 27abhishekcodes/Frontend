@@ -62,7 +62,7 @@ function Login() {
     return (
         <div className='auth-page'>
             <div className='auth-card' data-slip="SIGN-IN SLIP">
-                <h1>Log In</h1>
+                <h1>Admin Log In</h1>
                 <form onSubmit={handleLogin}>
                     <div className="auth-field">
                         <label htmlFor='email'>Email</label>
@@ -86,10 +86,10 @@ function Login() {
                         />
                     </div>
                     <button className="auth-submit" type='submit'>Log In</button>
-                    <span className="auth-switch">
-                        Don't have an account?
-                        <Link to="/signup">Signup</Link>
-                    </span>
+                    // <span className="auth-switch">
+                    //     Don't have an account?
+                    //     <Link to="/signup">Signup</Link>
+                    // </span>
                 </form>
             </div>
             <ToastContainer />
