@@ -86,10 +86,9 @@ function Login() {
                         />
                     </div>
                     <button className="auth-submit" type='submit'>Log In</button>
-                    // <span className="auth-switch">
-                    //     Don't have an account?
-                    //     <Link to="/signup">Signup</Link>
-                    // </span>
+                    <span className="auth-switch">
+                        
+                    </span>
                 </form>
             </div>
             <ToastContainer />
